@@ -1,0 +1,36 @@
+using System;
+
+namespace ConsoleApp5
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        
+        {
+
+            String name;
+            double A, B;
+            int price;
+
+           
+            Console.Write("Enter the pieces of apple: ");
+            A = Convert.ToDouble(Console.ReadLine());
+
+            Console.Write("Enter the total price of apples: ");
+            B = Convert.ToDouble(Console.ReadLine());
+            
+            
+            Console.WriteLine("Total price of " + A + " pieces of apples: " + B);
+            price = Convert.ToInt32(B);
+
+            
+            Console.WriteLine("Original price: " + B);
+            Console.WriteLine("Converted price: " + price);
+            
+        }
+    }
+
+
+}
+
+    
